@@ -51,10 +51,15 @@ section.middle{
 }
 
 section.choosing>a{
-    display: inline;
-    
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
 }
 
+a.finishing{
+    background-color: (223, 47%, 23%);
+    padding: 10px;
+}
 
 
 
