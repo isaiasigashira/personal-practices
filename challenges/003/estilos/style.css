@@ -10,10 +10,9 @@
 
 body{
     display: block;
-    width: 500px;
+    width: 400px;
     margin: auto;
     background: hsl(0, 100%, 74%) url(../images/bg-intro-mobile.png);
-    background-size: contain;
 }
 
 h1{
@@ -40,6 +39,7 @@ header p{
 }
 
 section#banner{
+    font-size: 1.1em;
     background-color: hsl(248, 32%, 49%);
     color: white;
     text-align: center;
@@ -67,6 +67,8 @@ section form label{
 }
 
 section form input{
+    font-size: 1.2em;
+    font-weight: 500;
     display: block;
     width: 80%;
     padding: 20px;
@@ -74,4 +76,33 @@ section form input{
     margin-top: 15px;
     border: 2px solid rgba(0, 0, 0, 0.150);
     border-radius: 5px;
+}
+
+#button{
+    display: block;
+    background-color: hsl(154, 59%, 51%);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 500;
+    margin-top: 15px;
+    width: 92%;
+    cursor: pointer;
+    box-shadow: 0px 5px hsla(155, 56%, 32%, 0.651);
+    border: none;
+    border-radius: 5px;
+}
+
+aside{
+    font-size: 0.9em;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.300);
+    padding: 20px;
+    text-align: center;
+}
+
+aside a{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(0, 100%, 74%);
 }
