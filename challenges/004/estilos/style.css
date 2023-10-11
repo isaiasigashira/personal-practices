@@ -62,6 +62,7 @@ select{
     background-color: #26b3e2;
     color: white;
     font-weight: bold;
+    cursor: pointer;
     width: 240px;
     padding: 10px;
     border: none;

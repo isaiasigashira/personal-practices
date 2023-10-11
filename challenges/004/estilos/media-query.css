@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 866px) {
+    body{
+        overflow: hidden;
+
+    }
+
+    header h1{
+        font-size: 1.5em;
+        width: auto;
+        text-align: center;
+    }
+
+    section#cadastro{
+        margin-right: 5vw;
+        width: 300px;
+        height: 479px;
+    }
+
+    section#bio{
+    height: 35vh;
+    }
+
+    section#bio-centro{
+        width: 800px;
+        margin: auto;
+
+    }
+
+    section div#selfie{
+        float: left;
+        margin-left: 10%;
+    }
+
+    section#bio article{
+        float: right;
+        width: 450px;
+    }
+
+}
