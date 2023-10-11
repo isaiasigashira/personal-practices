@@ -1,0 +1,97 @@
+@charset "UTF-8";
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-color: #6acaeb;
+    color: white;
+    padding: 10px;
+}
+
+header h1{
+    font-size: 1.9em;
+    width: 250px;
+    margin: auto;
+}
+
+section#img{ 
+    background: #6acaeb url(../images/people.jpg);
+    background-size: cover;
+    background-position: left;
+}
+
+section#cadastro{
+    background-color: rgba(255, 255, 255, 0.61);
+    text-align: left;
+    padding: 30px;
+    width: 240px;
+    height: 586px;
+    margin: auto;
+}
+
+#cadastro p{
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+label{
+    display: none;
+}
+
+input{
+    display: block;
+    width: 220px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+select{
+    width: 240px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+#botao{
+    background-color: #26b3e2;
+    color: white;
+    font-weight: bold;
+    width: 240px;
+    padding: 10px;
+    border: none;
+    margin-top: 10px;
+}
+
+section#bio{
+    background-color: #3a3939;
+    color: white;
+    padding: 40px;
+}
+
+#selfie{
+    background: #3a3939 url(../images/face.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 200px;
+    margin: auto;
+}
+
+#bio h2{
+    margin-top: 20px;
+    text-align: center;
+}
+
+#bio p{
+    font-size: 1.1em;
+    text-align: left;
+    margin: 19px;
+}
+
+
